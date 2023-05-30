@@ -1,20 +1,17 @@
-* {margin: 0; padding: 0}
-body {background: #000;}
-canvas {display: block;}
-div {background-color: aliceblue;}
-.contact-text {
-    top: 20px;
-    left: 70px;
-    color: rgb(60, 241, 12);
-    position: absolute;
-    font-size: 75px;
-    line-height: 0.90;
+* {
+    font-family: consolas;
+  }
+  
+body {
+    display: block;
+    margin: 0px;
+    background-color: #000000;
 }
-.contact-container {
+.about-me-container4 {
     top: 10px;
-    right: 10px;
-    width: 966px;
-    height: 166px;
+    left: 10px;
+    width: 100px;
+    height: 50px;
     display: flex;
     position: absolute;
     align-items: flex-start;
@@ -24,4 +21,55 @@ div {background-color: aliceblue;}
     flex-direction: column;
     justify-content: flex-start;
     background-color: #020202;
-}
+  }
+.about-me-container4:hover {
+    box-shadow: rgb(15, 181, 10) 7px 7px 0px 0px;
+  }
+  .about-me-text7 {
+    color: rgb(60, 241, 12);
+    margin-left: 35px;
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+
+.contact-me-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #000000;
+  }
+  .contact-me-container1 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 721px;
+    bottom: 0px;
+    height: 339px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    border-color: #0cfb11;
+    border-style: solid;
+    border-width: 7px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+  }
+  .contact-me-text {
+    color: rgb(12, 251, 17);
+    font-size: 50px;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-unit);
+  }
+  .contact-me-text03 {
+    color: rgb(12, 251, 17);
+    font-size: 30px;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
